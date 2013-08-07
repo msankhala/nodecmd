@@ -1,0 +1,41 @@
+{
+  "name": "calc",
+  "description": "First command line utility using nodejs.",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Mahesh Sankhala",
+    "email": "mahesh.saini@srijan.in"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/calc",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+      "calc" : "lib/calc.js"
+  }
+}
